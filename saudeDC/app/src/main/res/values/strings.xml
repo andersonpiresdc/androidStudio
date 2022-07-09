@@ -1,0 +1,11 @@
+<resources>
+   <string name="app_name">saudeDC</string>
+   <string name="tv_priValor">Informe o primeiro valor:</string>
+   <string name="tv_segValor">Informe o segundo valor:</string>
+
+   <string name="bt_somar">Somar</string>
+   <string name="bt_subtrair">Subtrair</string>
+   <string name="bt_multiplicar">Multiplicar</string>
+   <string name="bt_dividir">Dividir</string>
+
+</resources>

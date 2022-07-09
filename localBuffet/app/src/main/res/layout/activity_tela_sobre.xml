@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   xmlns:app="http://schemas.android.com/apk/res-auto"
+   xmlns:tools="http://schemas.android.com/tools"
+   android:layout_width="match_parent"
+   android:layout_height="match_parent"
+   tools:context=".tela_sobre">
+
+   <LinearLayout
+      android:layout_width="406dp"
+      android:layout_height="678dp"
+      android:orientation="vertical"
+      tools:layout_editor_absoluteX="1dp"
+      tools:layout_editor_absoluteY="52dp">
+
+      <Button
+         android:id="@+id/btVoltar"
+         android:layout_width="match_parent"
+         android:layout_height="51dp"
+         android:onClick="voltarTelaPrincipal"
+         android:text="Voltar" />
+
+      <TextView
+         android:id="@+id/tvTituloJanela"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="CFB Cursos"
+         android:textSize="34sp" />
+
+   </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   xmlns:app="http://schemas.android.com/apk/res-auto"
+   xmlns:tools="http://schemas.android.com/tools"
+   android:layout_width="match_parent"
+   android:layout_height="match_parent"
+   tools:context=".MainActivity">
+
+   <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical"
+      tools:layout_editor_absoluteX="1dp"
+      tools:layout_editor_absoluteY="1dp">
+
+      <TextView
+         android:id="@+id/tvTitulo"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:background="@android:color/holo_green_dark"
+         android:text="@string/tvTitulo"
+         android:textColor="@color/white"
+         android:textAlignment="center"
+         android:textSize="24sp"
+         android:textStyle="bold" />
+
+      <LinearLayout
+         android:id="@+id/loTacas"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal">
+
+         <CheckBox
+            android:id="@+id/cbTacas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"
+            android:text="@string/cbTacas"
+            android:hint="@string/cbTacas_hint"
+            tools:ignore="TouchTargetSizeCheck" />
+
+         <EditText
+            android:id="@+id/edTacas"
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:autofillHints=""
+            android:hint="@string/edTacas_hint"
+            android:inputType="number"
+            android:minHeight="45dp"
+            android:textColor="#546E7A"
+            android:textColorHint="#546E7A"
+            tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
+      </LinearLayout>
+
+      <LinearLayout
+         android:id="@+id/loPratos"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal">
+
+         <CheckBox
+            android:id="@+id/cbPratos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"
+            android:text="@string/cbPratos"
+            android:hint="@string/cbPratos_hint"
+            tools:ignore="TouchTargetSizeCheck" />
+
+         <EditText
+            android:id="@+id/edPratos"
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:autofillHints=""
+            android:hint="@string/edPratos_hint"
+            android:inputType="number"
+            android:minHeight="45dp"
+            android:textColor="#546E7A"
+            android:textColorHint="#546E7A"
+            tools:ignore="TouchTargetSizeCheck" />
+      </LinearLayout>
+
+      <LinearLayout
+         android:id="@+id/loMesas"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal">
+
+         <CheckBox
+            android:id="@+id/cbMesas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"
+            android:text="@string/cbMesas"
+            android:hint="@string/cbMesas_hint"
+            tools:ignore="TouchTargetSizeCheck" />
+
+         <EditText
+            android:id="@+id/edMesas"
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:autofillHints=""
+            android:hint="@string/edMesas_hint"
+            android:inputType="number"
+            android:minHeight="48dp"
+            android:textColor="#546E7A" />
+      </LinearLayout>
+
+      <LinearLayout
+         android:id="@+id/loCadeiras"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal">
+
+         <CheckBox
+            android:id="@+id/cbCadeiras"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"
+            android:hint="@string/cbCadeiras_hint"
+            android:text="@string/cbCadeiras"
+            tools:ignore="TouchTargetSizeCheck" />
+
+         <EditText
+            android:id="@+id/edCadeiras"
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:autofillHints=""
+            android:hint="@string/edCadeiras_hint"
+            android:inputType="number"
+            android:minHeight="48dp"
+            android:textColor="#546E7A" />
+      </LinearLayout>
+
+      <Button
+         android:id="@+id/btCalcular"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:backgroundTint="@color/teal_700"
+         android:onClick="Calcular"
+         android:text="@string/btCalcular"
+         android:textColor="@color/white"
+         android:textSize="20sp"
+         android:textStyle="bold" />
+
+      <TextView
+         android:id="@+id/tvResultado"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="@string/tvResultado"
+         android:textSize="24sp" />
+
+      <Button
+         android:id="@+id/btSobre"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:backgroundTint="@color/teal_700"
+         android:onClick="abrirTelaSobre"
+         android:text="@string/btSobre"
+         android:textColor="@color/white"
+         android:textSize="20sp"
+         android:textStyle="bold" />
+   </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

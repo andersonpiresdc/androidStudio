@@ -1,0 +1,19 @@
+<resources>
+   <string name="app_name">localBuffet</string>
+   <string name="tvTitulo">Lista do Buffet</string>
+   <string name="cbTacas">Taças R$</string>
+   <string name="cbTacas_hint">Selecionar para aluguar taças</string>
+   <string name="edTacas_hint">0</string>
+   <string name="cbPratos">Pratos R$</string>
+   <string name="cbPratos_hint">Selecionar para aluguar pratos</string>
+   <string name="edPratos_hint">0</string>
+   <string name="cbMesas">Mesas R$</string>
+   <string name="cbMesas_hint">Selecionar para aluguar mesas</string>
+   <string name="edMesas_hint">0</string>
+   <string name="cbCadeiras">Cadeiras R$</string>
+   <string name="cbCadeiras_hint">Selecionar para aluguar cadeiras</string>
+   <string name="edCadeiras_hint">0</string>
+   <string name="btCalcular">Calcular</string>
+   <string name="tvResultado">Valor Total: R$ 0,00</string>
+   <string name="btSobre">Sobre</string>
+</resources>
