@@ -1,0 +1,13 @@
+<resources>
+   <string name="app_name">Agenda</string>
+   <string name="action_settings">Configurações</string>
+   <!-- Strings used for fragments for navigation -->
+   <string name="first_fragment_label">Primeira Página</string>
+   <string name="second_fragment_label">Segunda Página</string>
+   <string name="fab">Enviar e-mail</string>
+   <string name="next">Próximo</string>
+   <string name="previous">Voltar</string>
+
+   <string name="hello_first_fragment">Olá esta é a primeira página</string>
+   <string name="hello_second_fragment">Olá esta é a segunda página. Arg: %1$s</string>
+</resources>
