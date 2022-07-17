@@ -15,10 +15,12 @@
       tools:layout_editor_absoluteY="1dp">
 
       <TextView
-         android:id="@+id/textView4"
+         android:id="@+id/tvTituloPrincipal"
          android:layout_width="match_parent"
          android:layout_height="wrap_content"
-         android:text="TextView" />
+         android:text="Agenda"
+         android:textAlignment="center"
+         android:textSize="34sp" />
 
       <LinearLayout
          android:layout_width="match_parent"
@@ -26,18 +28,20 @@
          android:orientation="vertical">
 
          <TextView
-            android:id="@+id/textView5"
+            android:id="@+id/tvLabelNomePrincipal"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="TextView" />
+            android:text="Nome"
+            android:textSize="20sp" />
 
          <EditText
-            android:id="@+id/editTextTextPersonName3"
+            android:id="@+id/edNomePrincipal"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="Name" />
+            android:minHeight="48dp"
+            tools:ignore="SpeakableTextPresentCheck" />
       </LinearLayout>
 
       <LinearLayout
@@ -46,18 +50,22 @@
          android:orientation="vertical">
 
          <TextView
-            android:id="@+id/textView6"
+            android:id="@+id/tvTelefonePrincipal"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="TextView" />
+            android:text="Telefone"
+            android:textColor="#212121"
+            android:textSize="20sp" />
 
          <EditText
-            android:id="@+id/editTextTextPersonName4"
+            android:id="@+id/edTelefonePrincipal"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="Name" />
+            android:minHeight="48dp"
+            tools:ignore="SpeakableTextPresentCheck"
+            android:autofillHints="" />
       </LinearLayout>
 
       <LinearLayout
@@ -75,7 +83,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Button" />
+            android:height="48dp"
+            android:minHeight="48dp"
+            android:text="Cadastrar" />
 
          <Space
             android:layout_width="wrap_content"
@@ -87,7 +97,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Button" />
+            android:height="48dp"
+            android:minHeight="48dp"
+            android:text="Consultar" />
 
          <Space
             android:layout_width="wrap_content"
@@ -109,7 +121,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Button" />
+            android:height="48dp"
+            android:minHeight="48dp"
+            android:text="Fechar" />
 
          <Space
             android:layout_width="wrap_content"
