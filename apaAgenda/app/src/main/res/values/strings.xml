@@ -1,3 +1,11 @@
 <resources>
    <string name="app_name">apaAgenda</string>
+    <string name="lblsnome">Nome</string>
+    <string name="gravar">Gravar</string>
+    <string name="telefone">Telefone</string>
+    <string name="agenda_de_contatos">Agenda de Contatos</string>
+    <string name="consultar">Consultar</string>
+    <string name="fechar">Fechar</string>
+    <string name="hintsCamposNomes">Digite aqui o seu nome</string>
+    <string name="hintsCamposTelefones">Digite aqui o seu telefone</string>
 </resources>
