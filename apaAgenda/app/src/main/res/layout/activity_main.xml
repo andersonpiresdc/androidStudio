@@ -15,10 +15,12 @@
       tools:layout_editor_absoluteY="1dp">
 
       <TextView
-         android:id="@+id/textView4"
-         android:layout_width="match_parent"
-         android:layout_height="wrap_content"
-         android:text="TextView" />
+          android:id="@+id/tvTituloPrincipal"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="@string/agenda_de_contatos"
+          android:textAlignment="center"
+          android:textSize="34sp" />
 
       <LinearLayout
          android:layout_width="match_parent"
@@ -26,18 +28,23 @@
          android:orientation="vertical">
 
          <TextView
-            android:id="@+id/textView5"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="TextView" />
+             android:id="@+id/tvLabelNomePrincipal"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="@string/lblsnome"
+             android:textAlignment="textStart"
+             android:textSize="24sp" />
 
          <EditText
-            android:id="@+id/editTextTextPersonName3"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:text="Name" />
+             android:id="@+id/edtNomePrincipal"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:autofillHints=""
+             android:ems="10"
+             android:hint="@string/hintsCamposNomes"
+             android:inputType="textPersonName"
+             android:minHeight="48dp"
+             android:textColorHint="#212121" />
       </LinearLayout>
 
       <LinearLayout
@@ -46,18 +53,22 @@
          android:orientation="vertical">
 
          <TextView
-            android:id="@+id/textView6"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="TextView" />
+             android:id="@+id/textView6"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="@string/telefone"
+             android:textSize="24sp" />
 
          <EditText
-            android:id="@+id/editTextTextPersonName4"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:text="Name" />
+             android:id="@+id/edtTelefonePrincipal"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:autofillHints=""
+             android:ems="10"
+             android:hint="@string/hintsCamposTelefones"
+             android:inputType="textPersonName"
+             android:minHeight="48dp"
+             android:textColorHint="#212121" />
       </LinearLayout>
 
       <LinearLayout
@@ -71,11 +82,11 @@
             android:layout_weight="1" />
 
          <Button
-            android:id="@+id/button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Button" />
+             android:id="@+id/btnGravar"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:text="@string/gravar" />
 
          <Space
             android:layout_width="wrap_content"
@@ -83,11 +94,11 @@
             android:layout_weight="1" />
 
          <Button
-            android:id="@+id/button2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Button" />
+             android:id="@+id/btnConsultar"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:text="@string/consultar" />
 
          <Space
             android:layout_width="wrap_content"
@@ -105,11 +116,11 @@
             android:layout_weight="1" />
 
          <Button
-            android:id="@+id/button5"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Button" />
+             android:id="@+id/btnFechar"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:text="@string/fechar" />
 
          <Space
             android:layout_width="wrap_content"
